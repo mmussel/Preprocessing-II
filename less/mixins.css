@@ -1,0 +1,31 @@
+.btn {
+  font-size: 170%;
+  color: white;
+  border: 1px solid #076042;
+  border-radius: 15px 15px 15px 15px;
+  background: #076042;
+  text-align: center;
+  padding: 7px 7px 7px 7px;
+  width: 70%;
+}
+@media (max-width: 500px) {
+  .content-pick {
+    flex-direction: column;
+    border: 1px solid black;
+  }
+  .content-pick .destination1 {
+    margin-left: 50px;
+  }
+  .content-pick .destination2 {
+    margin-left: 50px;
+  }
+  .content-pick .destination3 {
+    margin-left: 50px;
+  }
+  .content-pick .btn {
+    justify-content: center;
+    width: 80%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+}
