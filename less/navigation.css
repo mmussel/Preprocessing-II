@@ -1,0 +1,35 @@
+.navigation {
+  margin-left: 20%;
+  margin-right: 20%;
+  display: flex;
+  border-bottom: 2px dashed grey;
+}
+.navigation h2 {
+  font-size: 400%;
+  margin-right: 40%;
+}
+.navigation nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 200%;
+}
+.navigation nav {
+  word-spacing: 20px;
+}
+@media (max-width: 500px) {
+  .navigation {
+    display: block;
+  }
+  .navigation h2 {
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 50px;
+    width: 80%;
+  }
+  .navigation nav a {
+    font-size: 150%;
+  }
+  .navigation nav {
+    text-align: center;
+  }
+}

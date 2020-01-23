@@ -1,1 +1,36 @@
 // Mixins in here
+.btn{
+    font-size: 170%;
+    color: white;
+    border: 1px solid #076042;
+    border-radius: 15px 15px 15px 15px;
+    background: #076042;
+    text-align: center;
+    padding: 7px 7px 7px 7px;
+    width: 70%;
+
+}
+@media(max-width: 500px){
+    .content-pick{
+       flex-direction: column;
+        border: 1px solid black;
+     
+        .destination1{
+            margin-left: 50px;
+
+        }
+        .destination2{
+            margin-left: 50px;
+        }
+        .destination3{
+            margin-left: 50px;
+        }
+        .btn{
+            justify-content: center;
+            width: 80%;
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+
+    }
+}
