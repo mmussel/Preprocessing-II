@@ -1,12 +1,11 @@
 .navigation {
-  margin-left: 20%;
-  margin-right: 20%;
   display: flex;
   border-bottom: 2px dashed grey;
 }
 .navigation h2 {
   font-size: 400%;
-  margin-right: 40%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 .navigation nav a {
   text-decoration: none;
